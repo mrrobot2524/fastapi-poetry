@@ -12,7 +12,11 @@ uvicorn = {extras = ["standard"], version = "^0.27.1"}
 pytest = "^8.0.0"
 pydantic = {extras = ["email"], version = "^2.6.1"}
 email-validator = "^2.1.0.post1"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.27"}
 
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
 
 [build-system]
 requires = ["poetry-core"]
