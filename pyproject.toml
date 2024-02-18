@@ -13,6 +13,7 @@ pytest = "^8.0.0"
 pydantic = {extras = ["email"], version = "^2.6.1"}
 email-validator = "^2.1.0.post1"
 sqlalchemy = {extras = ["asyncio"], version = "^2.0.27"}
+aiosqlite = "^0.19.0"
 
 
 [tool.poetry.group.dev.dependencies]
